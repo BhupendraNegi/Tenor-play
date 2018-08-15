@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingTop="70dp">
+
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="383dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bhupendra" />
+
+    <TextView
+        android:id="@+id/aboutProfile"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilePicture"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="5dp"
+        android:singleLine="false"
+        android:text="This App is created by
+Bhupendra Singh Negi
+as a part of Inernshala project"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutProfile"
+        android:layout_gravity="center"
+        android:autoLink="email"
+        android:text="contact: bhupendranegi92@gmail.com"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/aboutVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutProfile"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="App Version: 1.0"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
