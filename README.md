@@ -4,9 +4,11 @@ Build on Android studio using Kotlin
 Run on API 15 or Higher
 ## Description
 #Flash Screen
+
 ![Image of EchoSong](https://github.com/BhupendraNegi/Tenor-play/blob/master/TenorPlay/Screenshots/Splash_Screen.gif)
 
 #Main Screen
+
 ![Image of EchoSong](https://github.com/BhupendraNegi/Tenor-play/blob/master/TenorPlay/Screenshots/Song_Playing.gif)
 
 ## Features
