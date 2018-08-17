@@ -3,15 +3,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_centerInParent="true"
     android:background="@drawable/bg_gradient">
 
     <ImageView
         android:id="@+id/tenor_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="110dp"
         android:minHeight="0dp"
         android:minWidth="0dp"
         android:src="@drawable/play_image" />
@@ -20,8 +19,8 @@
         android:id="@+id/tenor"
         android:layout_width="188dp"
         android:layout_height="55dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="195dp"
         android:minHeight="0dp"
         android:minWidth="0dp"
         android:src="@drawable/tenor" />
@@ -30,8 +29,8 @@
         android:id="@+id/play"
         android:layout_width="162dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="265dp"
         android:minHeight="0dp"
         android:minWidth="0dp"
         android:src="@drawable/play_text" />
@@ -40,8 +39,8 @@
         android:id="@+id/music"
         android:layout_width="wrap_content"
         android:layout_height="62dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="355dp"
         android:minHeight="0dp"
         android:minWidth="0dp"
         android:src="@drawable/music_player" />
