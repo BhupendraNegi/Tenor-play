@@ -1,4 +1,5 @@
 # Tenor play
+App is available at amazon store: [Tenor Play](https://www.amazon.com/Bhupendra-Negi-Tenor-Play/dp/B07GKXS3XS/ref=sr_1_5?dchild=1&keywords=tenor+play&qid=1623814463&sr=8-5)
 ### A Basic Music Player Application made for Android Users
 Build on Android studio using Kotlin
 Run on API 15 or Higher
